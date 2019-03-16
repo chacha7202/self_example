@@ -33,7 +33,7 @@
     
   </ul>
 
-![image](https://upload.cc/i1/2019/03/16/NILDk7.jpg])
+![image](https://upload.cc/i1/2019/03/16/spzCPK.jpg)
 
 #### 故事簡介:
 <pp>
