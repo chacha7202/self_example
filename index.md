@@ -16,7 +16,4 @@
 
 **Bold** and _Italic_ and `Code` text
 
-https://upload.cc/i1/2019/03/16/C2MTLQ.jpg.(url) and https://upload.cc/i1/2019/03/16/C2MTLQ.jpg
-(src)
-```
-
+<main> <img src="https://bit.ly/fcc-relaxing-cat" </main>
