@@ -4,15 +4,7 @@
 ### 這是我的個人網站
 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+<p> 利用上一次Lab2所學到的HTML5以及CSS來完成這次的L
 
 
 
