@@ -1,5 +1,5 @@
 ## Chacha's Personal Page
-<body bgcolor="orange">
+
 
 ### 這是我的個人網站
 
@@ -24,3 +24,18 @@
   </pp>
 
 
+#### 法醫女王
+  <p>主演</p>
+  <ul>
+    <li>石原聰美</li>
+    <li>井浦新</li>
+    <li>窪田正孝</li>
+    
+  </ul>
+
+![image](https://upload.cc/i1/2019/03/16/NILDk7.jpg])
+
+#### 故事簡介:
+<pp>
+  本劇講述在日本厚生勞動省新設立的「UDI Lab」英語：『Unnatural Death Investigation Laboratory，（簡稱UDI Lab）』裡，由法醫解剖人們在不自然死亡的屍體上找出其真正死因的單元劇故事。
+  </pp>
