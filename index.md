@@ -14,6 +14,6 @@
 1. Numbered
 2. List
 
-**Bold** and _Italic_ and `Code` text
 
-<main> <img src="https://bit.ly/fcc-relaxing-cat" </main>
+
+![image](https://upload.cc/i1/2019/03/16/C2MTLQ.jpg)
