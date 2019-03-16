@@ -77,3 +77,14 @@
   該劇改編自2013年的韓劇《GoodDoctor》，講述了患有交流障礙的青年醫生新堂湊在周圍人的偏見與反對中，為了拯救兒童患者們的生命而努力的故事。山崎賢人將飾演患自閉症而有溝通能力障礙,卻擁有驚人記憶力”SavantSyndrome(學者症候群)的主角。閒閒將攜手時隔兩年再次上戲的上野樹里以及飾演兒科主任的藤木直人,為我們帶來今夏的感動之作!
   
   </pp>
+
+
+#### 參考資料:
+<p> 維基百科 </p>
+  <ul>
+    <li>朝五晚九(https://zh.wikipedia.org/zh-tw/%E6%9C%9D5%E6%99%9A9)</li>
+    <li>法醫女王(https://zh.wikipedia.org/wiki/UNNATURAL)</li>
+    <li>失戀巧克力職人(https://zh.wikipedia.org/zh-tw/%E5%A4%B1%E6%88%80%E5%B7%A7%E5%85%8B%E5%8A%9B%E5%B8%AB)</li>
+    <li>Good Doctor(https://zh.wikipedia.org/zh-tw/%E5%A5%BD%E9%86%AB%E7%94%9F_(%E6%97%A5%E6%9C%AC%E9%9B%BB%E8%A6%96%E5%8A%87))</li>
+    
+  </ul>
