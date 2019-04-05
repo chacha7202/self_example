@@ -90,9 +90,8 @@
 
 <a href="#" class="scrollUpButton">Go To Top</a>
 
-
-
-.scrollUpButton {
+<div style="display:none">
+ .scrollUpButton {
  display: none;
  opacity: 0.6;
  position: fixed;
@@ -125,3 +124,4 @@
       return false;
   });
  });
+ </div>
