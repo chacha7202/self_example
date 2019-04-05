@@ -2,56 +2,8 @@
 
 
 ### 這是我的個人網站
-
-
 <p> 利用上一次Lab2所學到的HTML5以及CSS來完成這次的Lab3 </p>
-
 <p2> 內容介紹我看過的日劇:</p2>
-
-<script type="text/javascript">
-$(function() {
-    /* 按下GoTop按鈕時的事件 */
-    $('#gotop').click(function(){
-        $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
-        return false;
-    });
-     
-    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
-    $(window).scroll(function() {
-        if ( $(this).scrollTop() > 400){
-            $('#gotop').fadeIn();
-        } else {
-            $('#gotop').fadeOut();
-        }
-    });
-});
-</script>  
-
-<a href="https://chacha7202.github.io/self_example/" id="gotop" style="">
-   <i class="fa fa-angle-up"></i>
-</a>
-
-#gotop {
-    position:fixed;
-    z-index:90;
-    right:30px;
-    bottom:31px;
-    display:none;
-    width:50px;
-    height:50px;
-    color:#fff;
-    background:#33b5e5;
-    line-height:50px;
-    border-radius:50%;
-    transition:all 0.5s;
-    text-align: center;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-}
-#gotop :hover{
-    background:#0099CC;
-}
-
-
 #### 朝五晚九
   <p>主演</p>
   <ul>
@@ -133,3 +85,21 @@ $(function() {
     
   </ul>
 
+<button id='totop' style='display:none; position:fixed; bottom:20px; right:0px; font-size: large'>^</button>
+<div style="border:1px solid black;width:100px;height:150px;overflow:auto">
+卷軸往下拉以顯示至頂按鈕.<br><br><br><br><br><br><br><br><br><br><br><br>
+點下至頂按鈕會回到頂部.</div><br>
+
+$(document).ready(function(){
+    $("div").on("scroll", function() { 
+        if ($("div").scrollTop() > 0) { 
+            $("#totop").fadeIn();
+        }
+        else {
+            $("#totop").fadeOut();
+        }
+    });
+    $("#totop").on("click", function() {
+    	$("div").animate({ scrollTop: 0 }, "slow");
+    });
+});
