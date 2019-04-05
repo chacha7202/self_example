@@ -85,7 +85,7 @@
     
   </ul>
 
-<a href="#" class="scrollUpButton">&#9650</a>
+<a href="#" class="scrollUpButton">Go To Top</a>
 
 .scrollUpButton {
  display: none;
