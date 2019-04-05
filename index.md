@@ -90,38 +90,46 @@
 
 <a href="#" class="scrollUpButton">Go To Top</a>
 
-<div style="display:none">
- .scrollUpButton {
- display: none;
- opacity: 0.6;
- position: fixed;
- bottom: 10px;
- right: 10px;
- display: none;
- background: #000;
- color: #fff;
- font-size: 1.5em;
- text-decoration: none;
- padding: 5px 10px 5px 10px;
-}
-.scrollUpButton:hover, .scrollUpButton:focus {
- outline: none;
- text-decoration: none;
- color: #fff;
- opacity: 1;
-}
+<div style="visibility:hidden">
+      .scrollUpButton {
+      display: none;
+      opacity: 0.6;
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      display: none;
+      background: #000;
+      color: #fff;
+      font-size: 1.5em;
+      text-decoration: none;
+      padding: 5px 10px 5px 10px;
+      }
+</div>
 
- $(document).ready(function(){
-  $(window).scroll(function(){
-      if ($(this).scrollTop() > 100) {
+<div style="visibility:hidden">
+      .scrollUpButton:hover, .scrollUpButton:focus {
+      outline: none;
+      text-decoration: none;
+      color: #fff;
+      opacity: 1;
+      }
+</div>
+
+<div style="visibility:hidden">
+   $(document).ready(function(){
+     $(window).scroll(function(){
+        if ($(this).scrollTop() > 100) {
           $('.scrollUpButton').fadeIn();
       } else {
           $('.scrollUpButton').fadeOut();
       }
   });
+</div>
+ 
+<div style="visibility:hidden">
   $('.scrollUpButton').click(function(){
       $("html, body").animate({ scrollTop: 0 }, 500);
       return false;
   });
  });
- </div>
+</div>
