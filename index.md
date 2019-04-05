@@ -8,6 +8,50 @@
 
 <p2> 內容介紹我看過的日劇:</p2>
 
+<script type="text/javascript">
+$(function() {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function(){
+        $('html,body').animate({ scrollTop: 0 }, 'slow');   /* 返回到最頂上 */
+        return false;
+    });
+     
+    /* 偵測卷軸滑動時，往下滑超過400px就讓GoTop按鈕出現 */
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 400){
+            $('#gotop').fadeIn();
+        } else {
+            $('#gotop').fadeOut();
+        }
+    });
+});
+</script>  
+
+<a href="https://chacha7202.github.io/self_example/" id="gotop" style="">
+   <i class="fa fa-angle-up"></i>
+</a>
+
+#gotop {
+    position:fixed;
+    z-index:90;
+    right:30px;
+    bottom:31px;
+    display:none;
+    width:50px;
+    height:50px;
+    color:#fff;
+    background:#33b5e5;
+    line-height:50px;
+    border-radius:50%;
+    transition:all 0.5s;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+#gotop :hover{
+    background:#0099CC;
+}
+
+
 #### 朝五晚九
   <p>主演</p>
   <ul>
