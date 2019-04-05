@@ -85,21 +85,38 @@
     
   </ul>
 
-<button id='totop' style='display:none; position:fixed; bottom:20px; right:0px; font-size: large'>^</button>
-<div style="border:1px solid black;width:100px;height:150px;overflow:auto">
-卷軸往下拉以顯示至頂按鈕.<br><br><br><br><br><br><br><br><br><br><br><br>
-點下至頂按鈕會回到頂部.</div><br>
+<a href="#" class="scrollUpButton">&#9650</a>
 
-$(document).ready(function(){
-    $("div").on("scroll", function() { 
-        if ($("div").scrollTop() > 0) { 
-            $("#totop").fadeIn();
-        }
-        else {
-            $("#totop").fadeOut();
-        }
-    });
-    $("#totop").on("click", function() {
-    	$("div").animate({ scrollTop: 0 }, "slow");
-    });
-});
+.scrollUpButton {
+ display: none;
+ opacity: 0.6;
+ position: fixed;
+ bottom: 10px;
+ right: 10px;
+ display: none;
+ background: #000;
+ color: #fff;
+ font-size: 1.5em;
+ text-decoration: none;
+ padding: 5px 10px 5px 10px;
+}
+.scrollUpButton:hover, .scrollUpButton:focus {
+ outline: none;
+ text-decoration: none;
+ color: #fff;
+ opacity: 1;
+}
+
+ $(document).ready(function(){
+  $(window).scroll(function(){
+      if ($(this).scrollTop() > 100) {
+          $('.scrollUpButton').fadeIn();
+      } else {
+          $('.scrollUpButton').fadeOut();
+      }
+  });
+  $('.scrollUpButton').click(function(){
+      $("html, body").animate({ scrollTop: 0 }, 500);
+      return false;
+  });
+ });
